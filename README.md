@@ -1,11 +1,6 @@
 # Mozaïk time widgets
 
-[![License][license-image]][license-url]
-[![Travis CI][travis-image]][travis-url]
-[![NPM version][npm-image]][npm-url]
-[![Dependencies][gemnasium-image]][gemnasium-url]
-[![Coverage Status][coverage-image]][coverage-url]
-![widget count][widget-count-image]
+- Added digital clock
 
 ## Time — Clock
 
@@ -17,7 +12,7 @@
 
 key        | required | description
 -----------|----------|----------------------------------------------------
-`title`    | no       | *Title of the widget. Prefix it with `::` to [format](http://momentjs.com/docs/#/displaying/format/) with Moment.*
+`title`    | no       | *Title of the widget*
 `timezone` | no       | *Name of the timezone, like `America/Los_Angeles`. See http://momentjs.com/timezone/ for possible values. Defaults to local time.*
 `info`     | no       | *Free textual value to show within clock. Special values are: `timezone`, `date`, `time`.*
 `sunRise`  | no       | *Local time when sun rises (used for day/night indicator). Defaults to `6:00`.*
