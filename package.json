@@ -5,11 +5,11 @@
       "/Users/connortaylor/Desktop/projects/52-dashboard"
     ]
   ],
-  "_from": "mozaik-ext-time@1.1.0",
-  "_id": "mozaik-ext-time@1.1.0",
+  "_from": "mozaik-ext-timev1digital@latest",
+  "_id": "mozaik-ext-timev1digital@1.0.0",
   "_inBundle": false,
-  "_integrity": "sha1-E1VRc5l2JAPBN3Y1vP1f22AEeHU=",
-  "_location": "/mozaik-ext-time",
+  "_integrity": "sha512-tbcm/BHc4kZ2H1AjRYz+sNDd3Go35BWgxlbWG/dBCYAwz4pmDzya+/g6sLXdl+2XWvlGtn0GtCoN//IPKxG6MA==",
+  "_location": "/mozaik-ext-timev1digital",
   "_phantomChildren": {
     "babel-code-frame": "6.26.0",
     "babel-generator": "6.26.1",
@@ -32,24 +32,24 @@
     "source-map": "0.5.7"
   },
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "mozaik-ext-time@1.1.0",
-    "name": "mozaik-ext-time",
-    "escapedName": "mozaik-ext-time",
-    "rawSpec": "1.1.0",
+    "raw": "mozaik-ext-timev1digital@latest",
+    "name": "mozaik-ext-timev1digital",
+    "escapedName": "mozaik-ext-timev1digital",
+    "rawSpec": "latest",
     "saveSpec": null,
-    "fetchSpec": "1.1.0"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/mozaik-ext-time/-/mozaik-ext-time-1.1.0.tgz",
-  "_spec": "1.1.0",
+  "_resolved": "https://registry.npmjs.org/mozaik-ext-timev1digital/-/mozaik-ext-timev1digital-1.0.0.tgz",
+  "_shasum": "4a0ca9a6cc74dff0d17963fe625201b48a2f0dbf",
+  "_spec": "mozaik-ext-timev1digital@latest",
   "_where": "/Users/connortaylor/Desktop/projects/52-dashboard",
   "author": {
-    "name": "Raphaël Benitte",
-    "url": "https://github.com/plouc"
+    "name": "Connor Taylor"
   },
   "ava": {
     "files": [
@@ -70,6 +70,7 @@
   "bugs": {
     "url": "https://github.com/plouc/mozaik-ext-time/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "babel-core": "6.7.2",
     "babel-preset-es2015": "6.6.0",
@@ -80,6 +81,7 @@
     "moment": "2.12.0",
     "moment-timezone": "0.5.3"
   },
+  "deprecated": false,
   "description": "Mozaik time widgets",
   "devDependencies": {
     "ava": "0.13.0",
@@ -92,11 +94,14 @@
     "nyc": "6.1.1",
     "react": "^0.13.3"
   },
+  "directories": {
+    "test": "test"
+  },
   "engines": {
     "node": "0.12.x",
     "npm": ">=3.0.0"
   },
-  "homepage": "https://github.com/plouc/mozaik-ext-time",
+  "homepage": "https://github.com/connorrt/mozaik-ext-time",
   "keywords": [
     "time",
     "mozaik",
@@ -104,11 +109,12 @@
     "timezone",
     "widget",
     "extension",
-    "dashboard"
+    "dashboard",
+    "digital"
   ],
   "license": "MIT",
   "main": "./src/components/index.js",
-  "name": "mozaik-ext-time",
+  "name": "mozaik-ext-timev1digital",
   "nyc": {
     "extension": [
       ".jsx"
@@ -129,5 +135,15 @@
     "test": "ava",
     "test-cover": "nyc ava"
   },
-  "version": "1.1.0"
+  "version": "1.0.1",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.12.x",
+        "npm": ">=3.0.0"
+      },
+      "pkgid": "mozaik-ext-timev1digital@1.0.0"
+    }
+  ]
 }

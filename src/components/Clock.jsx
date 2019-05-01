@@ -51,22 +51,6 @@ class Clock extends Component {
             transform: `rotate(${ secondsScale(seconds) }deg)`
         };
 
-        // Day/night indicator
-        const { sunRise, sunSet } = this.props;
-
-        const sunRiseTime = moment(sunRise, sunFormats);
-        const sunSetTime  = moment(sunSet,  sunFormats);
-
-        const sunRiseDate = this.state.moment.clone().hours(sunRiseTime.hours()).minutes(sunRiseTime.minutes());
-        const sunSetDate  = this.state.moment.clone().hours(sunSetTime.hours()).minutes(sunSetTime.minutes());
-
-        const isDay = this.state.moment.isBetween(sunRiseDate, sunSetDate);
-        const timeIndicatorClasses = classNames('time__clock__indicator fa', {
-            'fa-sun-o':  isDay,
-            'fa-moon-o': !isDay
-        });
-
-        const { title, info } = this.props;
 
         // Textual field, defaults to config value
         const infoFields = {

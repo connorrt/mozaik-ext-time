@@ -46,7 +46,7 @@ class Digital extends Component {
         const sunSetDate  = this.state.moment.clone().hours(sunSetTime.hours()).minutes(sunSetTime.minutes());
 
         const isDay = this.state.moment.isBetween(sunRiseDate, sunSetDate);
-        const timeIndicatorClasses = classNames('time__clock__indicator fa', {
+        const timeIndicatorClasses = classNames('time__digital__indicator fa', {
             'fa-sun-o':  isDay,
             'fa-moon-o': !isDay
         });
@@ -64,10 +64,10 @@ class Digital extends Component {
         const bodyClasses = classNames({ 'widget__body': !!title });
         const body = (
             <div className={bodyClasses}>
-                <div className="time__clock__outer-circle">
-                    <span className={timeIndicatorClasses}>{time}</span>
-                    <span className={timeIndicatorClasses}>{date}</span>
-                    <span className="time__clock__info">{infoText}</span>
+                <div className="time__digital__centered">
+                    <div className="time__digital__time">{infoFields.time}</div>
+                    <div className="time__digital__date">{infoFields.date}</div>
+                    <div className="time__digital__info">{infoText}</div>
                 </div>
             </div>
         );
