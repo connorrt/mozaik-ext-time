@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "mozaik-ext-time@1.1.0",
+      "mozaik-ext-time@1.2.0",
       "/Users/connortaylor/Desktop/projects/52-dashboard"
     ]
   ],
   "_from": "mozaik-ext-timev1digital@latest",
-  "_id": "mozaik-ext-timev1digital@1.0.0",
+  "_id": "mozaik-ext-timev1digital@1.2.0",
   "_inBundle": false,
   "_integrity": "sha512-tbcm/BHc4kZ2H1AjRYz+sNDd3Go35BWgxlbWG/dBCYAwz4pmDzya+/g6sLXdl+2XWvlGtn0GtCoN//IPKxG6MA==",
   "_location": "/mozaik-ext-timev1digital",
@@ -135,7 +135,7 @@
     "test": "ava",
     "test-cover": "nyc ava"
   },
-  "version": "1.0.1",
+  "version": "1.2.0",
   "warnings": [
     {
       "code": "ENOTSUP",
@@ -143,7 +143,7 @@
         "node": "0.12.x",
         "npm": ">=3.0.0"
       },
-      "pkgid": "mozaik-ext-timev1digital@1.0.0"
+      "pkgid": "mozaik-ext-timev1digital@1.2.0"
     }
   ]
 }
